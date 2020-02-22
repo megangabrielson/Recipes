@@ -1,0 +1,160 @@
+form {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 5px 0 10px 0;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: .5px solid #0e6e98;
+  padding: 10px;
+  background-color: #a8b6b9;
+}
+
+a {
+  color: #0a4d6b;
+}
+
+#picture {
+  height: auto;
+  width: 70%;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+}
+
+#recipeName {
+  font-size: 2em;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+#type {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+#instructions {
+  font-size: 1.3em;
+  margin-right: 15%;
+  padding-left: 10px;
+}
+
+#similar {
+  text-align: center;
+  padding: 10px;
+}
+
+#recipeSubmit {
+  background-color: #f8f9fa;
+  border-style: outset;
+}
+
+#recipeInput {
+  text-align: center !important;
+}
+
+.col-lg {
+  padding-right: 0;
+}
+
+/*
+#605e61 //dark gray
+#a8b6b9 //bluish
+#3f3d40 //dark salmon
+#e8c4aa //salmon
+#d99d90 //black
+#e0cfb6 //taupe */
+/* Menu */
+.bg-light {
+  background-color: #a8b6b9 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #605e61 !important;
+  font-size: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #605e61 !important;
+  font-size: 1.2em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 30px;
+}
+
+.dropdown-item, .dropdown-menu {
+  background-color: #e9ad99;
+  color: #605e61 !important;
+}
+
+.dropdown-divider {
+  border-color: #605e61 !important;
+}
+
+.navbar {
+  border-bottom: .5px #605e61 solid;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3f3d40 !important;
+}
+
+/* General Page */
+body, pre {
+  background-color: #e8c4aa;
+  color: #605e61;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 25px 0 15px 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 0 0 10px 0;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+h3 {
+  padding: 15px 0 10px 0;
+}
+
+.col-lg img {
+  border: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .col-lg {
+    text-align: center;
+  }
+
+  #picture {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  #instructions {
+    margin-right: 0;
+    padding: 0 40px;
+  }
+}
